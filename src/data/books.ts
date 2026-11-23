@@ -110,7 +110,8 @@ export const BOOKS: Book[] = [
     title: "A la final trompeta",
     subtitle: "¿Qué papel desempeña Israel en la parusía de Cristo?",
     cover: "/portadas/a-la-final-trompeta.jpg",
-    summary: "Próximamente disponible para leer y descargar.",
+    summary:
+      "Sin duda, Israel es el reloj profético de Dios, y a ese cronómetro de dimensiones históricas debemos estar atentos los hijos de Dios. Además del mundo, no faltan llamados exegetas y profetas que desvelan.",
     chapters: [],
   },
 ];

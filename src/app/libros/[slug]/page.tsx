@@ -54,6 +54,7 @@ export default async function BookPage({ params }: { params: Promise<Params> }) 
                 </div>
               )}
               <p className="detail-summary">{book.summary}</p>
+              {!book.pdf && <p className="coming-soon">Próximamente disponible para leer y descargar.</p>}
               {book.epigraph && (
                 <blockquote className="epigraph">
                   «{book.epigraph.text}»<cite>{book.epigraph.reference}</cite>

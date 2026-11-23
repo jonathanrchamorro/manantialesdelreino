@@ -22,7 +22,10 @@ Agregar el video (id de YouTube, título y fecha) en `src/data/videos.ts`. El pr
 
 ## Publicar
 
-Publicado en Netlify (proyecto `manantialesdelreino`, https://manantialesdelreino.netlify.app). Para volver a publicar:
+Publicado en Netlify (proyecto `manantialesdelreino`, https://manantialesdelreino.netlify.app), conectado a este
+repositorio: **cada `git push` a `main` publica solo** (configuración en `netlify.toml`).
+
+Publicación manual, si hiciera falta:
 
 ```bash
 pnpm build && npx netlify-cli deploy --dir=out --prod --no-build

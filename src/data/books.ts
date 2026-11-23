@@ -111,7 +111,7 @@ export const BOOKS: Book[] = [
     subtitle: "¿Qué papel desempeña Israel en la parusía de Cristo?",
     cover: "/portadas/a-la-final-trompeta.jpg",
     summary:
-      "Sin duda, Israel es el reloj profético de Dios, y a ese cronómetro de dimensiones históricas debemos estar atentos los hijos de Dios. Además del mundo, no faltan llamados exegetas y profetas que desvelan.",
+      "Sin duda, Israel es el reloj profético de Dios, y a ese cronómetro de dimensiones históricas debemos estar atentos los hijos de Dios. Además del mundo, no faltan llamados exegetas y profetas que desdeñan.",
     chapters: [],
   },
 ];

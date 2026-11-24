@@ -22,14 +22,15 @@ Agregar el video (id de YouTube, título y fecha) en `src/data/videos.ts`. El pr
 
 ## Publicar
 
-Publicado en Netlify (proyecto `manantialesdelreino`, https://manantialesdelreino.netlify.app), conectado a este
-repositorio: **cada `git push` a `main` publica solo** (configuración en `netlify.toml`).
-
-Publicación manual, si hiciera falta:
+Publicado en Cloudflare Workers como archivos estáticos (gratis y sin límite de visitas), configuración en
+`wrangler.jsonc`: https://manantialesdelreino.gino-iafrancesco.workers.dev
 
 ```bash
-pnpm build && npx netlify-cli deploy --dir=out --prod --no-build
+pnpm build && npx wrangler@4 deploy   # Wrangler 4 necesita Node >= 22.12
 ```
+
+Netlify (https://manantialesdelreino.netlify.app) sigue conectado a este repositorio mientras termina la migración:
+cada `git push` a `main` publica allí y gasta 15 de los 300 créditos mensuales del plan gratis.
 
 Otras opciones:
 

@@ -415,6 +415,16 @@ p {
   font-size: 20px;
 }
 
+.contact-icon {
+  display: inline-flex;
+  margin-bottom: 6px;
+  color: var(--ink);
+}
+
+.contact-icon-mail {
+  color: var(--accent);
+}
+
 .contact-card span {
   color: var(--ink-soft);
   font-size: 15px;

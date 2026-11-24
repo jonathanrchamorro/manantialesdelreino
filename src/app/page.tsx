@@ -5,6 +5,7 @@ import SiteFooter from "@/components/SiteFooter";
 import BookActions from "@/components/BookActions";
 import VideoGallery from "@/components/VideoGallery";
 import { VIDEOS } from "@/data/videos";
+import { AmazonLogo, MailIcon, YouTubeLogo } from "@/components/Icons";
 
 export default function Home() {
   return (
@@ -85,6 +86,7 @@ export default function Home() {
             <VideoGallery videos={VIDEOS} />
             <p className="video-more">
               <a href={AUTHOR.youtube} className="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                <YouTubeLogo size={20} />
                 Ver todas en YouTube
               </a>
             </p>
@@ -105,6 +107,7 @@ export default function Home() {
                   Ver los libros
                 </Link>
                 <a href={AUTHOR.youtube} className="btn btn-outline" target="_blank" rel="noopener noreferrer">
+                  <YouTubeLogo size={20} />
                   Canal de YouTube
                 </a>
               </div>
@@ -121,14 +124,23 @@ export default function Home() {
             </div>
             <div className="contact-grid">
               <a className="contact-card" href={AUTHOR.youtube} target="_blank" rel="noopener noreferrer">
+                <span className="contact-icon">
+                  <YouTubeLogo />
+                </span>
                 <strong>YouTube</strong>
                 <span>Canal de {AUTHOR.name}</span>
               </a>
               <a className="contact-card" href={AUTHOR.amazon} target="_blank" rel="noopener noreferrer">
+                <span className="contact-icon">
+                  <AmazonLogo />
+                </span>
                 <strong>Amazon</strong>
                 <span>Página de autor y libros impresos</span>
               </a>
               <div className="contact-card">
+                <span className="contact-icon contact-icon-mail">
+                  <MailIcon />
+                </span>
                 <strong>Correo</strong>
                 {AUTHOR.emails.map((email) => (
                   <a key={email} href={`mailto:${email}`}>

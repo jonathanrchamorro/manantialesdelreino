@@ -26,7 +26,7 @@ export const AUTHOR = {
     url: `https://wa.me/573142568416?text=${encodeURIComponent("Hola, le escribo desde la página Manantiales del Reino.")}`,
   },
   youtube: "https://www.youtube.com/c/ArcadioSierraDiaz",
-  amazon: "https://www.amazon.com/author/arcadiosierradiaz",
+  amazon: "https://www.amazon.com/stores/author/B00IYPT0HW/allbooks",
 };
 
 // Entry order here does not matter: BOOKS is sorted below.

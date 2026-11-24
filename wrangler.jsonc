@@ -3,6 +3,11 @@
 {
   "name": "manantialesdelreino",
   "compatibility_date": "2026-11-24",
+  // Cloudflare creates the DNS records and the HTTPS certificate for these hostnames.
+  "routes": [
+    { "pattern": "manantialesdelreino.com", "custom_domain": true },
+    { "pattern": "www.manantialesdelreino.com", "custom_domain": true }
+  ],
   "assets": {
     "directory": "./out",
     // Next.js exports /libros/<slug>/index.html (trailingSlash: true)

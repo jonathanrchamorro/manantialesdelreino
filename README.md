@@ -23,7 +23,7 @@ Agregar el video (id de YouTube, título y fecha) en `src/data/videos.ts`. El pr
 ## Publicar
 
 Publicado en Cloudflare Workers como archivos estáticos (gratis y sin límite de visitas), configuración en
-`wrangler.jsonc`: https://manantialesdelreino.gino-iafrancesco.workers.dev
+`wrangler.jsonc`: https://manantialesdelreino.com (también www.)
 
 ```bash
 pnpm build && npx wrangler@4 deploy   # Wrangler 4 necesita Node >= 22.12

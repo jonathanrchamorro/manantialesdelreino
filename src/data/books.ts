@@ -40,7 +40,7 @@ const BOOK_ENTRIES: Book[] = [
       reference: "Efesios 3:3-5",
     },
     summary:
-      "Comentario homilético a la epístola de Pablo a los Efesios: el plan divino de la salvación, el origen eterno e histórico de la Iglesia, su unidad como el nuevo hombre corporativo, el andar del cristiano y la lucha contra el enemigo de Dios con la panoplia de Dios.",
+      "La epístola del apóstol Pablo a los Efesios es considerada uno de los documentos más elevados que hayan sido escritos en la historia de la humanidad; y esto se debe tanto a la profundidad de su carga revelacional, así como a lo sublime de su mensaje acerca de los eternos propósitos de Dios con relación al hombre, y acerca de la naturaleza y al destino de la iglesia.",
     chapters: [
       "Introducción I: Autoría. Esbozo de un perfil paulino",
       "Introducción II: Visión panorámica y estructural",
@@ -74,7 +74,7 @@ const BOOK_ENTRIES: Book[] = [
       reference: "Santiago 4:4",
     },
     summary:
-      "Los juicios escatológicos de Dios están a las puertas. El autor expone los juicios que Dios ha establecido, el costo de identificarse auténticamente con Cristo y lo que ocurrirá ante el tribunal de Cristo: las obras manifiestas y los niveles de recompensas.",
+      "Un aspecto importante del desarrollo escatológico de la salvación eterna que recibimos de Dios por gracia por medio de la fe en la obra expiatoria de Jesucristo, es el testimonio de santidad en el curso de nuestra vida en este cuerpo mortal, y nuestra obediencia la voluntad de Dios; de todo lo cual tendremos que rendir cuentas delante del Tribunal de Cristo el día de su regreso a la tierra.",
     chapters: [
       "Los juicios establecidos por Dios",
       "Para vivir es necesario morir",
@@ -95,7 +95,7 @@ const BOOK_ENTRIES: Book[] = [
       reference: "Lucas 9:23",
     },
     summary:
-      "No todos los que han creído en Jesucristo reinarán con Él, sino los vencedores. Un estudio de las siete promesas a los vencedores: la salvación, la cruz, el mundo, las obras, la justicia, la Iglesia y el tribunal de Cristo, hasta las bodas del Cordero.",
+      "Es necesario conocer que no todos los hijos de Dios son vencedores; y que la salvación es sólo la puerta para designios más altos que nos depara el Señor. Por ejemplo, sólo los vencedores entrarán a reinar con Cristo sobre las naciones en el reino milenial. Este libro te enseña detalles de ese importante tema.",
     chapters: [
       "Los vencedores y la salvación",
       "Los vencedores y la cruz",

@@ -25,7 +25,87 @@ export const AUTHOR = {
   amazon: "https://www.amazon.com/author/arcadiosierradiaz",
 };
 
-export const BOOKS: Book[] = [
+// Entry order here does not matter: BOOKS is sorted below.
+const BOOK_ENTRIES: Book[] = [
+  {
+    slug: "efesios-el-misterio-de-cristo-revelado",
+    title: "Efesios",
+    subtitle: "El misterio de Cristo revelado",
+    year: 2004,
+    pages: 388,
+    cover: "/portadas/efesios-el-misterio-de-cristo-revelado.jpg",
+    pdf: "/libros/efesios-el-misterio-de-cristo-revelado.pdf",
+    epigraph: {
+      text: "…que por revelación me fue declarado el misterio… misterio que en otras generaciones no se dio a conocer a los hijos de los hombres, como ahora es revelado a sus santos apóstoles y profetas por el Espíritu.",
+      reference: "Efesios 3:3-5",
+    },
+    summary:
+      "Comentario homilético a la epístola de Pablo a los Efesios: el plan divino de la salvación, el origen eterno e histórico de la Iglesia, su unidad como el nuevo hombre corporativo, el andar del cristiano y la lucha contra el enemigo de Dios con la panoplia de Dios.",
+    chapters: [
+      "Introducción I: Autoría. Esbozo de un perfil paulino",
+      "Introducción II: Visión panorámica y estructural",
+      "El plan divino de la salvación",
+      "El origen eterno de la Iglesia",
+      "El origen histórico de la Iglesia",
+      "Triunfo y supremacía de Cristo",
+      "Cómo se produce la Iglesia",
+      "Cómo se edifica la Iglesia",
+      "Revelación del misterio de Cristo",
+      "Fortalecimiento del hombre interior",
+      "La unidad de la Iglesia",
+      "La Iglesia como el nuevo hombre corporativo",
+      "La Iglesia como el nuevo hombre corporativo II",
+      "El andar del cristiano",
+      "El misterio del matrimonio de Cristo y la Iglesia",
+      "Cristo en el hogar y en el trabajo",
+      "Lucha de la Iglesia contra el enemigo de Dios",
+      "La panoplia de Dios",
+    ],
+  },
+  {
+    slug: "el-juicio-escatologico-de-los-hijos-de-dios",
+    title: "El juicio escatológico de los hijos de Dios",
+    year: 2023,
+    pages: 79,
+    cover: "/portadas/el-juicio-escatologico-de-los-hijos-de-dios.jpg",
+    pdf: "/libros/el-juicio-escatologico-de-los-hijos-de-dios.pdf",
+    epigraph: {
+      text: "¡Oh almas adúlteras! ¿No sabéis que la amistad del mundo es enemistad contra Dios? Cualquiera, pues, que quiera ser amigo del mundo, se constituye enemigo de Dios.",
+      reference: "Santiago 4:4",
+    },
+    summary:
+      "Los juicios escatológicos de Dios están a las puertas. El autor expone los juicios que Dios ha establecido, el costo de identificarse auténticamente con Cristo y lo que ocurrirá ante el tribunal de Cristo: las obras manifiestas y los niveles de recompensas.",
+    chapters: [
+      "Los juicios establecidos por Dios",
+      "Para vivir es necesario morir",
+      "La auténtica identificación con Cristo",
+      "Tiempo y justificación del juicio",
+      "El tribunal de Cristo",
+    ],
+  },
+  {
+    slug: "los-vencedores-y-el-reino-milenial",
+    title: "Los vencedores y el Reino Milenial",
+    year: 1999,
+    pages: 205,
+    cover: "/portadas/los-vencedores-y-el-reino-milenial.jpg",
+    pdf: "/libros/los-vencedores-y-el-reino-milenial.pdf",
+    epigraph: {
+      text: "Si alguno quiere venir en pos de mí, niéguese a sí mismo, tome su cruz cada día, y sígame.",
+      reference: "Lucas 9:23",
+    },
+    summary:
+      "No todos los que han creído en Jesucristo reinarán con Él, sino los vencedores. Un estudio de las siete promesas a los vencedores: la salvación, la cruz, el mundo, las obras, la justicia, la Iglesia y el tribunal de Cristo, hasta las bodas del Cordero.",
+    chapters: [
+      "Los vencedores y la salvación",
+      "Los vencedores y la cruz",
+      "Los vencedores y el mundo",
+      "Los vencedores y las obras",
+      "Los vencedores y la justicia",
+      "Los vencedores y la Iglesia",
+      "Los vencedores y el tribunal de Cristo",
+    ],
+  },
   {
     slug: "el-vuelo-infinito-de-los-elegidos",
     title: "El vuelo infinito de los elegidos",
@@ -115,6 +195,14 @@ export const BOOKS: Book[] = [
     chapters: [],
   },
 ];
+
+// Display order: books ready to read first, newest to oldest; upcoming books last.
+// Ties fall back to alphabetical title so the order never depends on how entries are typed.
+export const BOOKS: Book[] = [...BOOK_ENTRIES].sort((a, b) => {
+  if (Boolean(a.pdf) !== Boolean(b.pdf)) return a.pdf ? -1 : 1;
+  const byYear = (b.year ?? 0) - (a.year ?? 0);
+  return byYear !== 0 ? byYear : a.title.localeCompare(b.title, "es");
+});
 
 export function getBook(slug: string): Book | undefined {
   return BOOKS.find((b) => b.slug === slug);

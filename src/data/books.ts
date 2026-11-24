@@ -21,6 +21,10 @@ export const AUTHOR = {
   photo: "/img/arcadio-sierra-diaz.jpg",
   bio: "Colombiano; estudioso y expositor de la Palabra de Dios. Los libros que ha escrito son exegéticos con énfasis en lo histórico y lo escatológico, cuya línea editorial tiene como referente fundamental el contexto bíblico.",
   emails: ["manantialesdelreino@gmail.com", "cristiasidia@gmail.com"],
+  whatsapp: {
+    display: "+57 314 2568416",
+    url: `https://wa.me/573142568416?text=${encodeURIComponent("Hola, le escribo desde la página Manantiales del Reino.")}`,
+  },
   youtube: "https://www.youtube.com/c/ArcadioSierraDiaz",
   amazon: "https://www.amazon.com/author/arcadiosierradiaz",
 };

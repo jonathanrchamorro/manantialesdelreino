@@ -5,7 +5,7 @@ import SiteFooter from "@/components/SiteFooter";
 import BookActions from "@/components/BookActions";
 import VideoGallery from "@/components/VideoGallery";
 import { VIDEOS } from "@/data/videos";
-import { AmazonLogo, MailIcon, YouTubeLogo } from "@/components/Icons";
+import { AmazonLogo, MailIcon, WhatsAppLogo, YouTubeLogo } from "@/components/Icons";
 
 export default function Home() {
   return (
@@ -136,6 +136,13 @@ export default function Home() {
                 </span>
                 <strong>Amazon</strong>
                 <span>Página de autor y libros impresos</span>
+              </a>
+              <a className="contact-card" href={AUTHOR.whatsapp.url} target="_blank" rel="noopener noreferrer">
+                <span className="contact-icon contact-icon-whatsapp">
+                  <WhatsAppLogo />
+                </span>
+                <strong>WhatsApp</strong>
+                <span>{AUTHOR.whatsapp.display}</span>
               </a>
               <div className="contact-card">
                 <span className="contact-icon contact-icon-mail">

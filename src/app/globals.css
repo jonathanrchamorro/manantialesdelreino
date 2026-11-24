@@ -415,14 +415,18 @@ p {
   font-size: 20px;
 }
 
-.contact-icon {
+.contact-card .contact-icon {
   display: inline-flex;
   margin-bottom: 6px;
   color: var(--ink);
 }
 
-.contact-icon-mail {
+.contact-card .contact-icon-mail {
   color: var(--accent);
+}
+
+.contact-card .contact-icon-whatsapp {
+  color: #25d366;
 }
 
 .contact-card span {

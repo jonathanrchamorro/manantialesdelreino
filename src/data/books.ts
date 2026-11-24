@@ -111,6 +111,25 @@ const BOOK_ENTRIES: Book[] = [
     ],
   },
   {
+    slug: "el-hombre-interior",
+    title: "El hombre interior",
+    subtitle: "Inmersión en el interior del ser humano",
+    year: 2002,
+    pages: 225,
+    cover: "/portadas/el-hombre-interior.jpg",
+    pdf: "/libros/el-hombre-interior.pdf",
+    summary:
+      "Una inmersión, a la luz de la Palabra de Dios, en el hombre interior de los redimidos: la Trinidad divina y el ser humano, la diferencia entre el alma y el espíritu, las funciones del espíritu regenerado, la renovación del alma y el camino del creyente de Egipto a la Tierra Prometida.",
+    chapters: [
+      "La Trinidad divina y el ser humano",
+      "El hombre interior y el hombre exterior",
+      "El espíritu humano en el hombre interior",
+      "Muerte para generar vida",
+      "La renovación del alma",
+      "De Egipto a la Tierra Prometida",
+    ],
+  },
+  {
     slug: "el-nuevo-odre-de-dios",
     title: "El nuevo odre de Dios",
     year: 2009,

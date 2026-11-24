@@ -1,9 +1,0 @@
-# Static export: Netlify builds with pnpm and publishes the plain HTML in out/.
-[build]
-  command = "pnpm build"
-  publish = "out"
-
-[build.environment]
-  NODE_VERSION = "22"
-  # Static-only Next.js site: skip the server (OpenNext) adapter.
-  NETLIFY_NEXT_PLUGIN_SKIP = "true"

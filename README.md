@@ -29,14 +29,13 @@ Publicado en Cloudflare Workers como archivos estáticos (gratis y sin límite d
 pnpm build && npx wrangler@4 deploy   # Wrangler 4 necesita Node >= 22.12
 ```
 
-Netlify (https://manantialesdelreino.netlify.app) sigue conectado a este repositorio mientras termina la migración:
-cada `git push` a `main` publica allí y gasta 15 de los 300 créditos mensuales del plan gratis.
+La dirección anterior en Netlify (https://manantialesdelreino.netlify.app) ya no publica desde este repositorio: solo
+redirige a https://manantialesdelreino.com.
 
 Otras opciones:
 
 La carpeta `out/` es HTML puro: sirve en cualquier hosting.
 
-- **Netlify Drop (gratis, lo más rápido):** entrar a https://app.netlify.com/drop y arrastrar la carpeta `out/`.
 - **Vercel (gratis):** subir este directorio a un repositorio de GitHub e importarlo en https://vercel.com/new
   (detecta Next.js solo). También: `npx vercel` desde esta carpeta.
 - **HostGator:** subir el *contenido* de `out/` a `public_html/` por el administrador de archivos o FTP.

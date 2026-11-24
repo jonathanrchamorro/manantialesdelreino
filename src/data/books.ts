@@ -107,6 +107,23 @@ const BOOK_ENTRIES: Book[] = [
     ],
   },
   {
+    slug: "el-nuevo-odre-de-dios",
+    title: "El nuevo odre de Dios",
+    year: 2009,
+    pages: 153,
+    cover: "/portadas/el-nuevo-odre-de-dios.jpg",
+    pdf: "/libros/el-nuevo-odre-de-dios.pdf",
+    summary:
+      "Al hablar del nuevo odre de Dios, se concluye que hubo un antiguo odre que ya no le sirve a Dios para sus propósitos; y esto, a la vez, nos lleva a asegurar que hubo un vino en la antigüedad que ya fue reemplazado por un vino nuevo de parte del Señor.",
+    chapters: [
+      "Cristo, el vino nuevo; la Iglesia, el nuevo odre",
+      "Edificando el odre",
+      "Gerizim: Trasfondo histórico de una religión",
+      "El odre viejo desechado",
+      "El odre de Dios en la historia de la iglesia",
+    ],
+  },
+  {
     slug: "el-vuelo-infinito-de-los-elegidos",
     title: "El vuelo infinito de los elegidos",
     year: 2022,

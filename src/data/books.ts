@@ -74,7 +74,7 @@ const BOOK_ENTRIES: Book[] = [
       reference: "Santiago 4:4",
     },
     summary:
-      "Un aspecto importante del desarrollo escatológico de la salvación eterna que recibimos de Dios por gracia por medio de la fe en la obra expiatoria de Jesucristo, es el testimonio de santidad en el curso de nuestra vida en este cuerpo mortal, y nuestra obediencia la voluntad de Dios; de todo lo cual tendremos que rendir cuentas delante del Tribunal de Cristo el día de su regreso a la tierra.",
+      "Un aspecto importante del desarrollo escatológico de la salvación eterna que recibimos de Dios por gracia por medio de la fe en la obra expiatoria de Jesucristo, es el testimonio de santidad en el curso de nuestra vida en este cuerpo mortal, y nuestra obediencia a la voluntad de Dios; de todo lo cual tendremos que rendir cuentas delante del Tribunal de Cristo el día de su regreso a la tierra.",
     chapters: [
       "Los juicios establecidos por Dios",
       "Para vivir es necesario morir",

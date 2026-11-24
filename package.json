@@ -5,14 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "npx serve out",
-    "postinstall": "node scripts/copy-pdf-worker.mjs"
+    "start": "npx serve out"
   },
   "dependencies": {
     "next": "16.4.6",
     "react": "19.3.1",
-    "react-dom": "19.3.1",
-    "react-pdf": "11.1.0"
+    "react-dom": "19.3.1"
   },
   "devDependencies": {
     "@types/node": "^22",

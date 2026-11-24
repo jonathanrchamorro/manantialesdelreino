@@ -5,10 +5,16 @@ Sitio estático (Next.js con `output: "export"`) para leer en línea y descargar
 ## Desarrollo
 
 ```bash
-pnpm install   # también copia el worker de pdf.js a public/
+pnpm install
 pnpm dev       # http://localhost:3000
 pnpm build     # genera la carpeta out/ (HTML estático listo para publicar)
 ```
+
+## Lector de libros
+
+La página "Leer" usa el visor oficial de PDF.js (v6.5.438, versión *legacy* para celulares antiguos), copiado en
+`public/pdfjs/` desde https://github.com/mozilla/pdf.js/releases. Para actualizarlo, reemplazar esa carpeta con
+`build/` y `web/` del zip nuevo (sin los archivos `.map`, `debugger.*` ni el PDF de ejemplo).
 
 ## Agregar un libro
 

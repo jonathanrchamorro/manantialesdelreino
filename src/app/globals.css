@@ -741,14 +741,15 @@ body:has(.reader) .whatsapp-float {
   color: rgba(255, 255, 255, 0.65);
 }
 
+/* Sits on the always-dark hero photo, so its colors stay fixed in both themes. */
 .btn-light {
   background: #fff;
-  color: var(--ink);
+  color: #1b2330;
 }
 
 .btn-light:hover {
   background: #f1ece3;
-  color: var(--ink);
+  color: #1b2330;
 }
 
 .btn-ghost {

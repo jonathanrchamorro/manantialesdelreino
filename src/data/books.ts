@@ -120,7 +120,7 @@ const BOOK_ENTRIES: Book[] = [
     cover: "/portadas/los-concilios-ecumenicos.jpg",
     pdf: "/libros/los-concilios-ecumenicos.pdf",
     summary:
-      "Un recorrido histórico por los veintiún concilios ecuménicos, de Nicea al Vaticano II: las controversias que los convocaron, las doctrinas que definieron y cómo, siglo tras siglo, la tradición fue ganando terreno frente a la autoridad de las Escrituras.",
+      "Los estudiosos del desarrollo histórico de la Iglesia de Jesucristo, en esta obra encontrarán un resumen certero de cada uno de los concilios ecuménicos de la cristiandad, escenarios donde los jerarcas del clero debatieron y definieron los grandes dogmas fundamentales y las controversias relacionadas con Dios mismo, con la Trinidad, con Cristo y sus naturalezas, con el Espíritu Santo, con la salvación, entre otros tópicos; pero también en el seno de esas asambleas se han protocolizado divisiones, se han cocinado cismas, y nuevas grietas han surgido.",
     chapters: [
       "Concilio de Nicea",
       "Concilio de Constantinopla I",
@@ -158,7 +158,7 @@ const BOOK_ENTRIES: Book[] = [
       reference: "2 Corintios 11:2",
     },
     summary:
-      "A la luz de la parábola de las diez vírgenes, un llamado a mantener las lámparas encendidas ante la venida del Señor: el nuevo nacimiento, el tribunal de Cristo, las fiestas proféticas, los vencedores y las bodas del Cordero en el marco del matrimonio hebreo.",
+      "La realidad del reino de los cielos se ha hecho presente; está a las puertas; y la iglesia no está preparada para recibir al Rey, quien se acerca a pasos agigantados. Una vez frente al Señor, sentado en los estrados de su tribunal, habremos de rendirle cuentas de todos nuestros actos durante nuestro paso por esta tierra.",
     chapters: [
       "Amasando tortas para la reina del cielo",
       "El reino de los cielos ha llegado",
@@ -184,7 +184,7 @@ const BOOK_ENTRIES: Book[] = [
       reference: "Salmos 51:10",
     },
     summary:
-      "Una reflexión bíblica sobre el corazón humano, centro de la persona: asiento del alma con su intelecto, sentimientos y voluntad, sede del espíritu donde habita el Espíritu Santo, y lugar de la conciencia que, purificada por Dios, nos hace libres.",
+      "A decir verdad, nuestro corazón subjetivo es el centro neurálgico de nuestro carácter y de nuestra personalidad; pues es la sede misma de nuestra alma y de nuestro espíritu. Siendo así, nuestro corazón es el asiento de nuestra mente, de nuestros sentimientos y de nuestra voluntad; como también allí se localiza nuestra conciencia, allí opera la intuición y la comunión con Dios.",
     chapters: [
       "El corazón, asiento del alma",
       "El corazón, sede del espíritu humano",
